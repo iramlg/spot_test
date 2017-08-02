@@ -51,19 +51,37 @@ export class Home extends React.Component {
                 <div className="footer">
                     <div className="row container-fluid">
                         <div className="col-2">
-                            <a className="" href="#">Type something</a>
+                            <h4 className="">Type something</h4>
                         </div>
                         <div className="col-2">
-                            <a className="" href="#">Type something</a>
+                            <h4 className="">Type something</h4>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
                         </div>
                         <div className="col-2">
-                            <a className="" href="#">Type something</a>
+                            <h4 className="">Type something</h4>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
                         </div>
                         <div className="col-2">
-                            <a className="" href="#">Type something</a>
+                            <h4 className="">Type something</h4>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
+                            <a className="footer-item" href="#">Type something</a>
                         </div>
                         <div className="col-4">
-                            <a className="" href="#">Type something</a>
+                            <h4 className="">Type something</h4>
                         </div>
                     </div>
                 </div>
