@@ -1,6 +1,15 @@
 body {
     font-family: 'Raleway', sans-serif;
+    a, .dropdown-item {
+    	color: #424242;
+		&:hover {
+			color: #208AEC;
+			text-decoration: none;
+			background: none;
+		}
+    }
 }
+
 
 .header {
     margin: 16px 0;
@@ -8,8 +17,32 @@ body {
 
 .footer {
     background: #616161;
+    color: #e0e0e0;
+    padding: 30px;
+
+    h4 {
+    	margin-bottom: 20px;
+    }
+
+    a {
+    	color: #e0e0e0;
+    	margin-top: 10px;
+    }
 
     .footer-item {
     	display: block;
     }
+}
+.footer-link {
+	border-top: 1px solid #e0e0e0;
+	text-align: center;
+	padding: 30px;
+	background: #424242;
+
+	a {
+    	color: #e0e0e0;
+    }
+	p {
+		margin: 10px 0 0;
+	}
 }
