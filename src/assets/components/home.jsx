@@ -17,7 +17,7 @@ export class Home extends React.Component {
             <div className="">
                 <ul className="header nav nav-justified">
                     <li className="nav-item">
-                        <svg width="149px" height="36px" viewBox="0 0 149 36" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+                        <svg width="149px" height="36px" className="logo" viewBox="0 0 149 36" version="1.1" xmlns="http://www.w3.org/2000/svg" >
                             <defs>
                                 <polygon id="path-1" points="20.4112796 36 0 36 0 0 20.4112796 0 40.8225591 0 40.8225591 36 20.4112796 36"></polygon>
                             </defs>
@@ -140,6 +140,20 @@ export class Home extends React.Component {
                         </div>
                         <div className="col-3">
                             <h4 className="">Type something</h4>
+                            <div className="social-networks">
+                                <a href="#">
+                                    <i className="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i className="fa fa-github-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

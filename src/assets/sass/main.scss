@@ -13,6 +13,10 @@ body {
 
 .header {
     margin: 16px 0;
+
+    .logo {
+    	margin-top: 1px;
+    }
 }
 
 .footer {
@@ -27,6 +31,26 @@ body {
     a {
     	color: #e0e0e0;
     	margin-top: 10px;
+    }
+
+    .social-networks {
+    	a {
+    		background: #fff;
+    		width: 40px;
+    		height: 40px;
+    		text-align: center;
+    		display: inline-block;
+    		border-radius: 20px;
+    		margin-top: 0;
+    		i {
+    			color: #616161;
+    			font-size: 26px;
+    			line-height: 40px;
+    		}
+    		+ a {
+    			margin-left: 16px;
+    		}
+    	}
     }
 
     .footer-item {
