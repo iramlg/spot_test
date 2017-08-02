@@ -1,4 +1,3 @@
-# ml_mvp
 MVP de site para SPOT
 
 Como testar:
