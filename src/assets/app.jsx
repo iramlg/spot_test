@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Home } from './components/home.jsx';
+import { SinglePageApp } from './components/singlePageApp.jsx';
 
 render(
-    <Home name='spot' />
+    <SinglePageApp name='spot' />
 	, document.getElementById('reactDiv')
 )
